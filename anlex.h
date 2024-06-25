@@ -14,8 +14,10 @@
 #define LITERAL_CADENA	258 
 #define BOOL			259
 #define OPASIGNA		260
-//#define E_ARRAY			261
-//#define E_OBJECT			262
+#define IDENTIFICADOR		261
+#define VALOR_IDENTIFICADOR		262
+//#define E_ARRAY			263
+//#define E_OBJECT			264
 
 // Fin Codigos
 #define TAMBUFF 	5
@@ -47,3 +49,14 @@ entrada* buscar(const char *clave);
 void initTabla();
 void initTablaSimbolos();
 void getToken();
+void json();
+void element();
+void array();
+void element_list();
+void element_list2();
+void objeto();
+void atribute_list();
+void atribute_list2();
+void atribute();
+void atribute_name();
+void atribute_value();

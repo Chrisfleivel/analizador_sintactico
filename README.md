@@ -1,4 +1,4 @@
-compiladores
+compiladores - Analizador Sintactico
 ============
 
 Compiladores FPUNA
